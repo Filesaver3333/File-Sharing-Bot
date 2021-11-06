@@ -122,7 +122,7 @@ async def not_joined(client: Client, message: Message):
         buttons.append(
             [
                 InlineKeyboardButton(
-                    text = 'Try Again',
+                    text = 'Get File',
                     url = f"https://t.me/{client.username}?start={message.command[1]}"
                 )
             ]
